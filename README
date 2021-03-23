@@ -5,6 +5,6 @@ Usage:
 gcc -o render render.c && ./render > charmap_pck.vhd
 
 Or just download the generated file from:
-https://raw.githubusercontent.com/jonasjj/font8x8-vhdl-package/master/charmap_pck.vhd
+https://raw.githubusercontent.com/bberrevoets/font8x8-vhdl-package/master/charmap_pck.vhd
 
 See https://github.com/dhepper/font8x8 for docs on the original program
