@@ -41,7 +41,7 @@ void render(char *bitmap, int ord) {
 int main(int argc, char **argv) {
 
     printf("-- Auto generated file.\n"
-	"-- See https://github.com/jonasjj/font8x8-vhdl-package\n\n"
+	"-- See https://github.com/bberrevoets/font8x8-vhdl-package\n\n"
 	"library ieee;\n"
         "use ieee.std_logic_1164.all;\n\n"
 	"library dot_matrix;\n"
