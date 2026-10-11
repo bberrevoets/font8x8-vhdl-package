@@ -1,5 +1,5 @@
 -- Auto generated file.
--- See https://github.com/jonasjj/font8x8-vhdl-package
+-- See https://github.com/bberrevoets/font8x8-vhdl-package
 
 library ieee;
 use ieee.std_logic_1164.all;
