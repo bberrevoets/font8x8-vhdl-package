@@ -1,0 +1,19 @@
+charmap_pck.vhd
+  s_c197af7db730fe::t_e76ff999168269 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e14b59c6b47da9c27624bcddd2934e8e78d55a3c",
+  "prompts": {},
+  "sessions": {
+    "s_c197af7db730fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2933f06a-eb76-4707-85cd-c139a3a30290",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "B.N. Berrevoets <bert@berrevoets.net>"
+    }
+  }
+}
