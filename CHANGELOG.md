@@ -19,6 +19,9 @@ Author: *Bert Berrevoets*
 
 - AI agent setup: [AGENTS.md](AGENTS.md) as the single instruction file, a [CLAUDE.md](CLAUDE.md) stub that imports it,
   markdownlint (180 characters), Git LFS rules and this changelog.
+- `AGENTS.md`: Cross-Repository section for DotMatrixVHDLandFPGACourse, the course work that defines
+  `dot_matrix.types` and uses the generated package; the overview now dates Bert's fork (2021-03) and his course work
+  (2022-12) separately.
 
 ### Changed
 
