@@ -9,7 +9,8 @@ alone does not tell you.
 A small C program, `render.c`, that turns the 8x8 bitmap font `font8x8_basic.h` into a VHDL package: `charmap_pck.vhd`
 defines `package charmap` with the constant `charmap` (the lower 128 ASCII characters, 8 rows of 8 `std_logic` each).
 The package uses `charmap_type` from `dot_matrix.types`, the library of the VHDLwhiz *Dot Matrix* VHDL/FPGA course
-([academy.vhdlwhiz.com/dotmatrix](https://academy.vhdlwhiz.com/dotmatrix)); Bert used it in that course in 2021.
+([academy.vhdlwhiz.com/dotmatrix](https://academy.vhdlwhiz.com/dotmatrix)). Bert forked it in March 2021; his work
+from that course (December 2022) is in DotMatrixVHDLandFPGACourse (see Cross-Repository).
 
 History: Daniel Hepper's [dhepper/font8x8](https://github.com/dhepper/font8x8) (C header fonts) → Jonas Julian
 Jensen's [jonasjj/font8x8-vhdl-package](https://github.com/jonasjj/font8x8-vhdl-package) (the VHDL generator) →
@@ -49,6 +50,14 @@ font8x8.h           includes all font tables
   PR. In a fresh clone, add them again with `git remote add` + `git remote set-url --push <name> DISABLED`.
 - License: Public Domain — stated in dhepper's README and in the `font8x8_*.h` headers (the font data derives from
   IBM's public-domain VGA fonts); neither upstream has a `LICENSE` file.
+
+## Cross-Repository
+
+- [DotMatrixVHDLandFPGACourse](https://github.com/bberrevoets/DotMatrixVHDLandFPGACourse) (private;
+  `D:\Repos\HardwareProjects\FPGA\DotMatrixVHDLandFPGACourse`): Bert's course work. It defines `dot_matrix.types`
+  (`dot-matrix/src/packages/types_pck.vhd`, with `charmap_type`) and holds a copy of `charmap_pck.vhd` in the same
+  folder, identical to this generator's 2021 output (the current file here differs only in the header URL). After
+  regenerating here, copy the file there; when `charmap_type` changes there, check `render.c`.
 
 <!-- repo-init:start -->
 ## Repository Info
