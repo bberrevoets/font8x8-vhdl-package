@@ -32,6 +32,7 @@ Author: *Bert Berrevoets*
   and dhepper's U+003B comment fix in `font8x8_basic.h` (2019-06). The generated VHDL is unchanged by both.
 - `charmap_pck.vhd` regenerated: its header now names this repository, as `render.c` has since 2021-03.
 - `README` renamed to `README.md`: course link updated, download link on `main`, authors and license.
+- AGENTS.md repo-init block refreshed: "update the documentation" covers the project's own README files, not vendored third-party ones.
 
 ## 2021-03
 
